@@ -5,4 +5,10 @@
     set showmode            "左下角那一行癿状态   
     set nu                  "可以在每一行癿最前面显示行号啦！   
     set bg=dark             "显示丌同癿底色色调   
-    syntax on               "迚行语法检验，颜色显示。  
+    syntax on               "迚行语法检验，颜色显示。 
+    
+    call plug#begin('~/.vim/pluggud')
+
+    Plug 'keith/swift.vim'
+
+    call plug#end()
